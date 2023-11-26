@@ -1,0 +1,84 @@
+.headerOne{
+  padding: 20px;
+background-color: rgb(255, 137, 2);
+}
+.navigate {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigate img{
+    width: 70px;
+}
+
+.navigate button{
+    width: 100px;
+    height: 30px;
+    border: solid black 1px;
+    background-color: rgb(17, 5, 121);
+    color: white;
+}
+
+
+.horoscope{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+    margin: 50px;
+    gap: 30px;
+    padding: 30px;
+    background-color: rgba(17, 5, 121, 0.301);
+    border-radius: 8px;
+}
+
+.selectorTwo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+
+   
+} 
+.selectorTwo select{
+        width: 150px;
+    height: 50px;
+    border: solid black 1px;
+    padding: 10px;
+    background-color: rgb(17, 5, 121);
+    color: white;
+    }
+
+    .search{
+        width: 150px;
+        height: 50px;
+        border: solid black 1px;
+        padding: 10px;
+        background-color: rgb(17, 5, 121);
+        color: white;
+    }
+
+
+    .horoscopeContainer{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 50px;
+padding: 40px;
+font-size: large;
+font-weight: 900;
+background-color: rgba(17, 5, 121, 0.301);
+    border-radius: 8px;
+    }
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    border-top: solid black 2px;
+}
+
+.footer-dark{
+    height: 100px;
+    background-image: url(img/OIP.jpg);
+}
